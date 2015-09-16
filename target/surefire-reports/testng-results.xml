@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PracticeWeb" duration-ms="5" started-at="2015-09-16T15:44:19Z" finished-at="2015-09-16T15:44:19Z">
+    <groups>
+    </groups>
+    <test name="PracticeWebTest" duration-ms="5" started-at="2015-09-16T15:44:19Z" finished-at="2015-09-16T15:44:19Z">
+      <class name="sac.PracticeWeb.baseSetUp.TestBaseSetUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:sac.PracticeWeb.baseSetUp.TestBaseSetUp@19dfb72a]" name="setUp" is-config="true" duration-ms="8995" started-at="2015-09-16T21:14:10Z" finished-at="2015-09-16T21:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sac.PracticeWeb.baseSetUp.TestBaseSetUp@19dfb72a]" name="tearDown" is-config="true" duration-ms="2625" started-at="2015-09-16T21:14:19Z" finished-at="2015-09-16T21:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sac.PracticeWeb.baseSetUp.TestBaseSetUp -->
+    </test> <!-- PracticeWebTest -->
+  </suite> <!-- PracticeWeb -->
+</testng-results>

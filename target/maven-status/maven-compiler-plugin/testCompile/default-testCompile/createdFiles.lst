@@ -1,0 +1,8 @@
+sac\PracticeWeb\PageObject\DemoSitePage.class
+sac\PracticeWeb\PageObject\HomePage.class
+sac\PracticeWeb\Test\DemoSitePageTest.class
+sac\PracticeWeb\baseSetUp\TestBaseSetUp.class
+sac\PracticeWeb\PageObject\DroppablePage.class
+sac\PracticeWeb\PageObject\DraggablePage.class
+sac\PracticeWeb\PageObject\Resizable.class
+sac\PracticeWeb\Test\HomePageTest.class
