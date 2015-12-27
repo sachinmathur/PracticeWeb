@@ -31,8 +31,7 @@ public class TestBaseSetUp {
 	@AfterSuite
 	public void tearDown()
 	{
-		driver.close();
-		driver.quit();
+		System.out.println("TestSuie Executed !!!");
 	}
 
 }

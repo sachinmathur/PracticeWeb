@@ -8,20 +8,18 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import sac.PracticeWeb.PageObject.DemoSitePage;
 import sac.PracticeWeb.PageObject.DraggablePage;
 import sac.PracticeWeb.baseSetUp.TestBaseSetUp;
 
-public class DemoSitePageTest extends TestBaseSetUp {
-
+public class DraggablePageTest extends TestBaseSetUp
+{
 	private WebDriver driver;
-	private DemoSitePage demoSitePage;
-	private DraggablePage draggablepage;
+	private DraggablePage draggablePage;
 	
 	@BeforeClass
 	public void beforeClass()
 	{
-		this.driver = setDriver();
+		driver = setDriver();
 	}
 	
 	@BeforeMethod
@@ -30,17 +28,16 @@ public class DemoSitePageTest extends TestBaseSetUp {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	
-	public void demoSitePageFactory()
+	public void draggablePageFactory()
 	{
-		this.demoSitePage = PageFactory.initElements(driver, DemoSitePage.class);
+		this.draggablePage = PageFactory.initElements(driver, DraggablePage.class);
 		return;
 	}
 	
 	@Test
-	public void testLoginToDemoSite()
+	public void testClickDraggableInteraction()
 	{
-		this.demoSitePageFactory();
-		this.draggablepage = demoSitePage.logintoDemoSite();
+		this.draggablePageFactory();
+		draggablePage.clickDraggableInteraction();
 	}
-	
 }

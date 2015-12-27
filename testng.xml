@@ -4,6 +4,9 @@
 	<test name="PracticeWebTest">
     <classes>
 	<class name="sac.PracticeWeb.baseSetUp.TestBaseSetUp"/>
+	<class name="sac.PracticeWeb.Test.HomePageTest"/>
+	<class name="sac.PracticeWeb.Test.DemoSitePageTest"/>
+	<class name="sac.PracticeWeb.Test.DraggablePageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
