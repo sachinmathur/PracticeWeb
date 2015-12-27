@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="PracticeWeb" parallel="none">
+<suite name="PracticeWeb" parallel="false">
 	<test name="PracticeWebTest">
     <classes>
 	<class name="sac.PracticeWeb.baseSetUp.TestBaseSetUp"/>

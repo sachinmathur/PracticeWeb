@@ -16,7 +16,7 @@ public class TestBaseSetUp {
 	public void setUp()
 	{
 		ProfilesIni profile = new ProfilesIni();
-		FirefoxProfile firefoxProfile = profile.getProfile("FirefoxAutomationProfile");
+		FirefoxProfile firefoxProfile = profile.getProfile("FirefoxAutomationProfile1");
 		driver = new FirefoxDriver(firefoxProfile);
 		driver.manage().window().maximize();
 		driver.get(appURL);

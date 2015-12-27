@@ -6,3 +6,4 @@ sac\PracticeWeb\PageObject\DroppablePage.class
 sac\PracticeWeb\PageObject\DraggablePage.class
 sac\PracticeWeb\PageObject\Resizable.class
 sac\PracticeWeb\Test\HomePageTest.class
+sac\PracticeWeb\Test\DraggablePageTest.class
